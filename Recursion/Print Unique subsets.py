@@ -30,6 +30,7 @@ def print_unique_subset(inp,out):
 
 print_unique_subset(inp,op)
 
+# subset_list.sort() --> We use this when ask for lexicographical order(order like in dictionary).
 for i in subset_list:
     print(i)
 
@@ -43,3 +44,8 @@ subsequence : here we also take{ac(which we not take in substring)} but here ord
 subset : here order is allowed .
 
 '''
+
+# --> Lexicographical order - Like in dictionary.
+# --> so for this we store our subset in a list and then sort that list.
+
+

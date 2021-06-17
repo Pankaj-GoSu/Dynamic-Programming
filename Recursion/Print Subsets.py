@@ -2,7 +2,7 @@
 
 # like {ab:"",a,b,ab} these 4 are subset of ab string.
 
-inp = "abcd" # test input
+inp = "abc" # test input
 
 op ="" # we initialize output
 def print_subset(inp,out):
